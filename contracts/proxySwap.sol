@@ -12,6 +12,7 @@ contract DAppProxySwap{
     function SwapOut(address _token, uint _total)public returns(bool){}
 }
 
+
 //DEXs
 contract GlobianceProxySwap{
 
@@ -20,6 +21,8 @@ contract GlobianceProxySwap{
     function SwapIn(address _token)public returns(bool){}
 
     function SwapOut(address _token, uint _total)public returns(bool){}
+
+    function DelegateCall()public payable returns(bool){}
 }
 
 contract XSWAPProxySwap{
@@ -29,6 +32,8 @@ contract XSWAPProxySwap{
     function SwapIn(address _token)public returns(bool){}
 
     function SwapOut(address _token, uint _total)public returns(bool){}
+
+    function DelegateCall()public payable returns(bool){}
 }
 
 //Bridges
@@ -39,6 +44,8 @@ contract SWIFTAllChainBridgeProxySwap{
     function SwapIn(address _token)public returns(bool){}
 
     function SwapOut(address _token, uint _total)public returns(bool){}
+
+    function DelegateCall()public payable returns(bool){}
 }
 contract ImpelProxySwap{
 
@@ -47,6 +54,8 @@ contract ImpelProxySwap{
     function SwapIn(address _token)public returns(bool){}
 
     function SwapOut(address _token, uint _total)public returns(bool){}
+
+    function DelegateCall()public payable returns(bool){}
 }
 contract WanChainProxySwap{
 
@@ -55,4 +64,6 @@ contract WanChainProxySwap{
     function SwapIn(address _token)public returns(bool){}
 
     function SwapOut(address _token, uint _total)public returns(bool){}
+
+    function DelegateCall()public payable returns(bool){}
 }
